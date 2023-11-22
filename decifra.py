@@ -106,3 +106,11 @@ c=0
 
 #posU = 'c'
 #posV = 'u'
+#probando con poon: posibles o:eopnmdt
+
+# for p in dicEng:
+#       if len(p)==4:
+#             if p[1]==p[2]:
+#                   c+=1
+#                   print(p)
+# print(c)
