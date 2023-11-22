@@ -62,22 +62,6 @@ c=0
 #sees
 #posQ = 's'
 
-#probando con dobqgn
-
-# for p in dicEng:
-#       if len(p)==6:
-#             if p[4] in posG and p[3] in posQ and p[2]!=p[3] and p[-1]!=p[3]:
-#                   c+=1
-#                   print(p)
-# print(c)
-
-#chosen biased closer closed raised caused poised
-
-#posD = 'cbrp'
-#posO = 'ilao'
-#posB = 'aoiu'
-#posN = 'ndr'
-
 # dgjjand
 # for p in dicEng:
 #       if len(p)==7:
@@ -107,3 +91,11 @@ c=0
 #posU = 'c'
 #posV = 'u'
 
+#probando con poon: posibles o:opmd
+
+# for p in dicEng:
+#       if len(p)==4:
+#             if p[1]==p[2]:
+#                   c+=1
+#                   print(p)
+# print(c)
