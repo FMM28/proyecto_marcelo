@@ -11,31 +11,31 @@ def carga(nombre):
     return contenido.split()
 
 posA = "i"
-posB = "abcdefghijklmnopqrstuvwxyz"
-posC = "abcdefghijklmnopqrstuvwxyz"
+posB = "abdfhjklmopqrvwxyz"
+posC = "abdfhjklmopqrvwxyz"
 posD = "g"
-posE = "abcdefghijklmnopqrstuvwxyz"
-posF = "abcdefghijklmnopqrstuvwxyz"
+posE = "abdfhjklmopqrvwxyz"
+posF = "abdfhjklmopqrvwxyz"
 posG = "e"
-posH = "abcdefghijklmnopqrstuvwxyz"
-posI = "abcdefghijklmnopqrstuvwxyz"
+posH = "abdfhjklmopqrvwxyz"
+posI = "abdfhjklmopqrvwxyz"
 posJ = "t"
-posK = "abcdefghijklmnopqrstuvwxyz"
-posL = "abcdefghijklmnopqrstuvwxyz"
-posM = "abcdefghijklmnopqrstuvwxyz"
+posK = "abdfhjklmopqrvwxyz"
+posL = "abdfhjklmopqrvwxyz"
+posM = "abdfhjklmopqrvwxyz"
 posN = "n"
-posO = "abcdefghijklmnopqrstuvwxyz"
-posP = "abcdefghijklmnopqrstuvwxyz"
+posO = "opmd"
+posP = "abdfhjklmopqrvwxyz"
 posQ = "s"
-posR = "abcdefghijklmnopqrstuvwxyz"
-posS = "abcdefghijklmnopqrstuvwxyz"
-posT = "abcdefghijklmnopqrstuvwxyz"
+posR = "abdfhjklmopqrvwxyz"
+posS = "abdfhjklmopqrvwxyz"
+posT = "abdfhjklmopqrvwxyz"
 posU = "c"
 posV = "u"
-posW = "abcdefghijklmnopqrstuvwxyz"
-posX = "abcdefghijklmnopqrstuvwxyz"
-posY = "abcdefghijklmnopqrstuvwxyz"
-posZ = "abcdefghijklmnopqrstuvwxyz"
+posW = "abdfhjklmopqrvwxyz"
+posX = "abdfhjklmopqrvwxyz"
+posY = "abdfhjklmopqrvwxyz"
+posZ = "abdfhjklmopqrvwxyz"
 
 #Texto 1
 #En ingles
@@ -99,3 +99,5 @@ c=0
 #                   c+=1
 #                   print(p)
 # print(c)
+
+#posO = 'opmd'
