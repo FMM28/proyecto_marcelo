@@ -12,30 +12,30 @@ def carga(nombre):
 
 posA = "i"
 posB = "pl"
-posC = "abdfhjklmopqrvwxyz"
+posC = "bdfhjklpqrvwxz"
 posD = "g"
-posE = "abdfhjklmopqrvwxyz"
-posF = "abdfhjklmopqrvwxyz"
+posE = "a"
+posF = "m"
 posG = "e"
 posH = "rfb"
-posI = "abdfhjklmopqrvwxyz"
+posI = "bdfhjklpqrvwxz"
 posJ = "t"
-posK = "abdfhjklmopqrvwxyz"
-posL = "abdfhjklmopqrvwxyz"
-posM = "abdfhjklmopqrvwxyz"
+posK = "bdfhjklpqrvwxz"
+posL = "bdfhjklpqrvwxz"
+posM = "bdfhjklpqrvwxz"
 posN = "n"
-posO = "opmd"
-posP = "abdfhjklmopqrvwxyz"
+posO = "o"
+posP = "bdfhjklpqrvwxz"
 posQ = "s"
-posR = "abdfhjklmopqrvwxyz"
-posS = "abdfhjklmopqrvwxyz"
-posT = "abdfhjklmopqrvwxyz"
+posR = "bdfhjklpqrvwxz"
+posS = "bdfhjklpqrvwxz"
+posT = "bdfhjklpqrvwxz"
 posU = "c"
 posV = "u"
-posW = "abdfhjklmopqrvwxyz"
-posX = "abdfhjklmopqrvwxyz"
-posY = "abdfhjklmopqrvwxyz"
-posZ = "abdfhjklmopqrvwxyz"
+posW = "y"
+posX = "bdfhjklpqrvwxz"
+posY = "bdfhjklpqrvwxz"
+posZ = "bdfhjklpqrvwxz"
 
 #Texto 1
 #En ingles
@@ -104,13 +104,31 @@ c=0
 
 #habband
 
-for p in dicEng:
-      if len(p)==7:
-            if p[1]==p[4] and p[2]==p[3] and p[-2] in posN and p[1] in posA and p[2] in posB:
-                  c+=1
-                  print(p)
-print(c)
+# for p in dicEng:
+#       if len(p)==7:
+#             if p[1]==p[4] and p[2]==p[3] and p[-2] in posN and p[1] in posA and p[2] in posB:
+#                   c+=1
+#                   print(p)
+# print(c)
 
 #posH = 'rfb'
 #posB = 'pl'
+
+#probando con wov: posible palabra you
+
+# for p in dicEng:
+#     if len(p)==3:
+#          if p[1] in posO and p[2] in posV:
+#               c+=1
+#               print(p)
+
+#posW = 'y'
+#posO = 'o'
+
+#afedang
+for p in dicEng:
+    if len(p)==7:
+         if p[0]==p[4] and p[-1] in posG and p[0] in posA:
+              c+=1
+              print(p)
 
