@@ -24,7 +24,7 @@ posK = "abdfhjklmopqrvwxyz"
 posL = "abdfhjklmopqrvwxyz"
 posM = "abdfhjklmopqrvwxyz"
 posN = "n"
-posO = "op"
+posO = "o"
 posP = "abdfhjklmopqrvwxyz"
 posQ = "s"
 posR = "abdfhjklmopqrvwxyz"
@@ -32,7 +32,7 @@ posS = "abdfhjklmopqrvwxyz"
 posT = "abdfhjklmopqrvwxyz"
 posU = "c"
 posV = "u"
-posW = "yc"
+posW = "y"
 posX = "abdfhjklmopqrvwxyz"
 posY = "abdfhjklmopqrvwxyz"
 posZ = "abdfhjklmopqrvwxyz"
@@ -104,6 +104,13 @@ c=0
 
 #probando con wov: posible palabra you
 
+# for p in dicEng:
+#     if len(p)==3:
+#          if p[1] in posO and p[2] in posV:
+#               c+=1
+#               print(p)
+
+#probando con mottgttgq
 for p in dicEng:
     if len(p)==3:
          if p[1] in posO and p[2] in posV:
