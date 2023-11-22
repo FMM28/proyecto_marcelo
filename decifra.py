@@ -26,15 +26,15 @@ posM = "bdfhjklpqrvwxz"
 posN = "n"
 posO = "o"
 posP = "bdfhjklpqrvwxz"
-posQ = "s"
+posQ = "bdfhjklpqrvwxz"
 posR = "bdfhjklpqrvwxz"
 posS = "bdfhjklpqrvwxz"
-posT = "bdfhjklpqrvwxz"
+posT = "s"
 posU = "c"
 posV = "u"
 posW = "y"
 posX = "bdfhjklpqrvwxz"
-posY = "bdfhjklpqrvwxz"
+posY = "b"
 posZ = "bdfhjklpqrvwxz"
 
 #Texto 1
@@ -49,18 +49,6 @@ c=0
 #Como la letra g es la que mas se repite podemos decir que esta es la letra e
 
 #posG = 'e'
-
-#probando con qggq
-
-# for p in dicEng:
-#       if len(p)==4:
-#             if p[1]==p[2] and p[1] in posG and p[0]==p[-1]:
-#                   c+=1
-#                   print(p)
-# print(c)
-
-#sees
-#posQ = 's'
 
 # dgjjand
 # for p in dicEng:
@@ -126,9 +114,16 @@ c=0
 #posO = 'o'
 
 #afedang
+# for p in dicEng:
+#     if len(p)==7:
+#          if p[0]==p[4] and p[-1] in posG and p[0] in posA:
+#               c+=1
+#               print(p)
+
+#yguevtg
 for p in dicEng:
     if len(p)==7:
-         if p[0]==p[4] and p[-1] in posG and p[0] in posA:
+         if p[0] in posY and p[1] in posG and p[2] in posU and p[1] == p[-1] and p[3] in posE:
               c+=1
               print(p)
 
