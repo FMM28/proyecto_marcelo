@@ -11,31 +11,35 @@ def carga(nombre):
     return contenido.split()
 
 posA = "i"
-posB = "abdfhjklmopqrvwxyz"
-posC = "abdfhjklmopqrvwxyz"
+posB = "pl"
+posC = "bdfhjklpqrvwxz"
 posD = "g"
-posE = "abdfhjklmopqrvwxyz"
-posF = "abdfhjklmopqrvwxyz"
+posE = "a"
+posF = "m"
 posG = "e"
-posH = "abdfhjklmopqrvwxyz"
-posI = "abdfhjklmopqrvwxyz"
+posH = "rfb"
+posI = "bdfhjklpqrvwxz"
 posJ = "t"
-posK = "abdfhjklmopqrvwxyz"
-posL = "abdfhjklmopqrvwxyz"
-posM = "abdfhjklmopqrvwxyz"
+posK = "bdfhjklpqrvwxz"
+posL = "bdfhjklpqrvwxz"
+posM = "bdfhjklpqrvwxz"
 posN = "n"
 posO = "o"
 posP = "abdfhjklmopqrvwxyz"
+posP = "bdfhjklpqrvwxz"
 posQ = "s"
-posR = "abdfhjklmopqrvwxyz"
-posS = "abdfhjklmopqrvwxyz"
-posT = "abdfhjklmopqrvwxyz"
+posR = "bdfhjklpqrvwxz"
+posS = "bdfhjklpqrvwxz"
+posT = "bdfhjklpqrvwxz"
 posU = "c"
 posV = "u"
 posW = "y"
 posX = "abdfhjklmopqrvwxyz"
 posY = "abdfhjklmopqrvwxyz"
 posZ = "abdfhjklmopqrvwxyz"
+posX = "bdfhjklpqrvwxz"
+posY = "bdfhjklpqrvwxz"
+posZ = "bdfhjklpqrvwxz"
 
 #Texto 1
 #En ingles
@@ -102,6 +106,18 @@ c=0
 
 #posO = 'opmd'
 
+#habband
+
+# for p in dicEng:
+#       if len(p)==7:
+#             if p[1]==p[4] and p[2]==p[3] and p[-2] in posN and p[1] in posA and p[2] in posB:
+#                   c+=1
+#                   print(p)
+# print(c)
+
+#posH = 'rfb'
+#posB = 'pl'
+
 #probando con wov: posible palabra you
 
 # for p in dicEng:
@@ -111,8 +127,13 @@ c=0
 #               print(p)
 
 #probando con mottgttgq
+#posW = 'y'
+#posO = 'o'
+
+#afedang
 for p in dicEng:
-    if len(p)==3:
-         if p[1] in posO and p[2] in posV:
+    if len(p)==7:
+         if p[0]==p[4] and p[-1] in posG and p[0] in posA:
               c+=1
               print(p)
+
