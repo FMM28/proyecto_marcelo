@@ -10,28 +10,28 @@ def carga(nombre):
             contenido = archivo.read()
     return contenido.split()
 
-posA = "abcdefghijklmnopqrstuvwxyz"
+posA = "i"
 posB = "abcdefghijklmnopqrstuvwxyz"
 posC = "abcdefghijklmnopqrstuvwxyz"
-posD = "abcdefghijklmnopqrstuvwxyz"
+posD = "g"
 posE = "abcdefghijklmnopqrstuvwxyz"
 posF = "abcdefghijklmnopqrstuvwxyz"
 posG = "e"
 posH = "abcdefghijklmnopqrstuvwxyz"
 posI = "abcdefghijklmnopqrstuvwxyz"
-posJ = "abcdefghijklmnopqrstuvwxyz"
+posJ = "t"
 posK = "abcdefghijklmnopqrstuvwxyz"
 posL = "abcdefghijklmnopqrstuvwxyz"
 posM = "abcdefghijklmnopqrstuvwxyz"
-posN = "abcdefghijklmnopqrstuvwxyz"
+posN = "n"
 posO = "abcdefghijklmnopqrstuvwxyz"
 posP = "abcdefghijklmnopqrstuvwxyz"
 posQ = "s"
 posR = "abcdefghijklmnopqrstuvwxyz"
 posS = "abcdefghijklmnopqrstuvwxyz"
 posT = "abcdefghijklmnopqrstuvwxyz"
-posU = "abcdefghijklmnopqrstuvwxyz"
-posV = "abcdefghijklmnopqrstuvwxyz"
+posU = "c"
+posV = "u"
 posW = "abcdefghijklmnopqrstuvwxyz"
 posX = "abcdefghijklmnopqrstuvwxyz"
 posY = "abcdefghijklmnopqrstuvwxyz"
@@ -78,13 +78,31 @@ c=0
 #posB = 'aoiu'
 #posN = 'ndr'
 
-#probando con xonqgclvb
+# dgjjand
+# for p in dicEng:
+#       if len(p)==7:
+#             if p[2]==p[3] and p[1] in posG and p[-1]==p[0]:
+#                   c+=1
+#                   print(p)
+# print(c)
 
-for p in dicEng:
-      if len(p)==9:
-            if p[3:5]=='se':
-                  c+=1
-                  print(p)
-print(c)
+#getting
 
-# 
+#posJ = 't'
+#posA = 'i'
+#posN = 'n'
+#posD = 'g'
+
+# uvjjand
+
+# for p in dicEng:
+#       if len(p)==7:
+#             if p[2:]=='tting':
+#                   c+=1
+#                   print(p)
+# print(c)
+
+#cutting
+
+#posU = 'c'
+#posV = 'u'
