@@ -11,13 +11,13 @@ def carga(nombre):
     return contenido.split()
 
 posA = "i"
-posB = "abdfhjklmopqrvwxyz"
+posB = "pl"
 posC = "abdfhjklmopqrvwxyz"
 posD = "g"
 posE = "abdfhjklmopqrvwxyz"
 posF = "abdfhjklmopqrvwxyz"
 posG = "e"
-posH = "abdfhjklmopqrvwxyz"
+posH = "rfb"
 posI = "abdfhjklmopqrvwxyz"
 posJ = "t"
 posK = "abdfhjklmopqrvwxyz"
@@ -101,3 +101,16 @@ c=0
 # print(c)
 
 #posO = 'opmd'
+
+#habband
+
+for p in dicEng:
+      if len(p)==7:
+            if p[1]==p[4] and p[2]==p[3] and p[-2] in posN and p[1] in posA and p[2] in posB:
+                  c+=1
+                  print(p)
+print(c)
+
+#posH = 'rfb'
+#posB = 'pl'
+
