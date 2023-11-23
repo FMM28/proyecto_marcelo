@@ -12,17 +12,17 @@ def carga(nombre):
 
 posA = "i"
 posB = "r"
-posC = "hjkqwyz"
+posC = "hjkwyz"
 posD = "t"
 posE = "g"
-posF = "hjkqwyz"
+posF = "hjkwyz"
 posG = "c"
-posH = "hjkqwyz"
+posH = "hjkwyz"
 posI = "b"
 posJ = "e"
 posK = "p"
 posL = "v"
-# posM = "hjkqwyz"
+# posM = "hjkwyz"
 posN = "o"
 posO = "d"
 posP = "a"
@@ -31,15 +31,15 @@ posR = "s"
 posS = "m"
 posT = "l"
 posU = "x"
-posV = "hjkqwyz"
+posV = "hjkwyz"
 posW = "f"
-posX = "hjkqwyz"
-# posY = "hjkqwyz"
+posX = "q"
+# posY = "hjkwyz"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
 dicFr=list(set(dicFr))
-print(len(dicFr))
+# print(len(dicFr))
 
 #igual que el texto 1 deducimos que la j es una e por ser la que tiene mayor frecuencia
 
