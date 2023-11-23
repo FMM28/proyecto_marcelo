@@ -73,33 +73,37 @@ def guarda(lista,nombre):
     
 #consigue datos de paginas de wikipedia
 
-dicEng=consulta('YouTube','en')
-dicEng.extend(consulta('Facebook','en'))
-dicEng.extend(consulta('Wikipedia','en'))
+# dicEng=consulta('YouTube','en')
+# dicEng.extend(consulta('Facebook','en'))
+# dicEng.extend(consulta('Wikipedia','en'))
 
 dicFr=consulta('YouTube','fr')
 dicFr.extend(consulta('Facebook','fr'))
 dicFr.extend(consulta('Wikipedia','fr'))
+dicFr.extend(consulta('Fantasy','fr'))
+dicFr.extend(consulta('Science-fiction','fr'))
+dicFr.extend(consulta('Histoire','fr'))
 
-dicAle=consulta('YouTube','de')
-dicAle.extend(consulta('Facebook','de'))
-dicAle.extend(consulta('Wikipedia','de'))
+dicFr = list(set(dicFr))
+# dicAle=consulta('YouTube','de')
+# dicAle.extend(consulta('Facebook','de'))
+# dicAle.extend(consulta('Wikipedia','de'))
 
-dicPor=consulta('YouTube','pt')
-dicPor.extend(consulta('Facebook','pt'))
-dicPor.extend(consulta('Wikipedia','pt'))
+# dicPor=consulta('YouTube','pt')
+# dicPor.extend(consulta('Facebook','pt'))
+# dicPor.extend(consulta('Wikipedia','pt'))
 
-dicIt=consulta('YouTube','it')
-dicIt.extend(consulta('Facebook','it'))
-dicIt.extend(consulta('Wikipedia','it'))
+# dicIt=consulta('YouTube','it')
+# dicIt.extend(consulta('Facebook','it'))
+# dicIt.extend(consulta('Wikipedia','it'))
 
 #Guarda los diccionarios
 
-guarda(dicEng,'dicEng')
+# guarda(dicEng,'dicEng')
 guarda(dicFr,'dicFr')
-guarda(dicAle,'dicAle')
-guarda(dicPor,'dicPor')
-guarda(dicIt,'dicIt')
+# guarda(dicAle,'dicAle')
+# guarda(dicPor,'dicPor')
+# guarda(dicIt,'dicIt')
 
 #imprime la longitud de las listas de palabras
 

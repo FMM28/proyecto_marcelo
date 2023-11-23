@@ -37,9 +37,9 @@ posX = "abcdefghijklmnopqrstuvwxyz"
 posY = "abcdefghijklmnopqrstuvwxyz"
 posZ = "abcdefghijklmnopqrstuvwxyz"
 
-dicFr=carga('./diccionarios/dicFr.txt')
+dicFr=carga('dicFr.txt')
 dicFr=list(set(dicFr))
-# print(len(dicFr))
+print(len(dicFr))
 
 #igual que el texto 1 deducimos que la j es una e por ser la que tiene mayor frecuencia
 
