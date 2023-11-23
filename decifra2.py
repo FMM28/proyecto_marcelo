@@ -12,7 +12,7 @@ def carga(nombre):
 
 posA = "i"
 posB = "r"
-posC = "hjkwyz"
+posC = "h"
 posD = "t"
 posE = "g"
 posF = "hjkwyz"
