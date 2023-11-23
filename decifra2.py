@@ -141,10 +141,19 @@ c=0
 #                     print(p)
 
 #probando con tpxzjttj
+# for p in dicFr:
+#       if len(p) == 8:
+#             if p[0] == p[5] and p[0] in posT:
+#                   if p[5] == p[6] and p[5] in posT:
+#                         if p[1] in posP and p[3] in posZ:
+#                               c += 1
+#                               print(p)
+
+#Probando con gcpsibjr
+
 for p in dicFr:
-      if len(p) == 8:
-            if p[0] == p[5] and p[0] in posT:
-                  if p[5] == p[6] and p[5] in posT:
-                        if p[1] in posP and p[3] in posZ:
-                              c += 1
-                              print(p)
+    if len(p) == 8:
+        if p[0] in posG and p[2] in posP:
+            if p[3] in posS:
+                c += 1
+                print(p)
