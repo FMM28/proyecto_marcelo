@@ -93,7 +93,13 @@ c=0
 #             print(p)
 
 #wpad
+# for p in dicFr:
+#     if len(p)==4:
+#         if p[0] in posW and p[1] in posP and p[2] in posA and p[3] in posD:
+#             print(p)
+
+#kbnwadjb
 for p in dicFr:
-    if len(p)==4:
-        if p[0] in posW and p[1] in posP and p[2] in posA and p[3] in posD:
+    if len(p)==8:
+        if p[1]==p[-1] and p[-1]in posB and p[3]in posW and p[4]in posA:
             print(p)
