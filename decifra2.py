@@ -15,14 +15,14 @@ posB = "r"
 posC = "h"
 posD = "t"
 posE = "g"
-posF = "hjkwyz"
+posF = "z"
 posG = "c"
-posH = "hjkwyz"
+posH = "y"
 posI = "b"
 posJ = "e"
 posK = "p"
 posL = "v"
-# posM = "hjkwyz"
+# posM = "kw"
 posN = "o"
 posO = "d"
 posP = "a"
@@ -31,10 +31,10 @@ posR = "s"
 posS = "m"
 posT = "l"
 posU = "x"
-posV = "hjkwyz"
+posV = "j"
 posW = "f"
 posX = "q"
-# posY = "hjkwyz"
+# posY = "kw"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
@@ -151,14 +151,24 @@ c=0
 
 #Probando con gcpsibjr
 
-for p in dicFr:
-      if len(p) == 8:
-            if p[0] == p[5] and p[0] in posT:
-                  if p[5] == p[6] and p[5] in posT:
-                        if p[1] in posP and p[3] in posZ:
-                              c += 1
-                              print(p)
+# for p in dicFr:
+#       if len(p) == 8:
+#             if p[0] == p[5] and p[0] in posT:
+#                   if p[5] == p[6] and p[5] in posT:
+#                         if p[1] in posP and p[3] in posZ:
+#                               c += 1
+#                               print(p)
 
 
-letras = {"a" : "i","b" : "r","c" : "C","d" : "D","e" : "E","f" : "F","g" : "G","h" : "H","i" : "I","j" : "J","k" : "K","l" : "L","m" : "M","n" : "N","o" : "O","p" : "P","q" : "Q","r" : "R","s" : "S","t" : "T","u" : "U","v" : "V","w" : "W","x" : "X","y" : "Y","z" : "Z",}
+letras = {"a" : "i","b" : "r","c" : "h","d" : "t","e" : "g","f" : "z","g" : "c","h" : "y","i" : "b","j" : "e","k" : "p","l" : "v","m" : "M","n" : "o","o" : "d","p" : "a","q" : "n","r" : "s","s" : "m","t" : "l","u" : "x","v" : "j","w" : "f","x" : "q","y" : "Y","z" : "u"}
+texto2='Tp sparnq oj Ijq jrd ebpqoj. At h p ijpzgnzk oj kajgjr. Pz bjf-oj-gcpzrrjj, at h p zq rptnq pljg zq kapqn, zqj rpttj-p-spqejb, zqj gzaraqj rkpgajzrj jd vpzqj jd zqj rpttj oj ipaq. At p wpad gnqrdbzabj jq ktzr zqj ijttj ljbpqop gnqdjqpqd zqj iaitandcjxzj, knzb kbnwadjb oz rntjat jd o’zqj lzj rzb tj vpboaq. Pz rnzr-rnt, at h p zqj gplj, knzb bpqejb tj laq. Pz kbjsajb jdpej, at h p dbnar gcpsibjr. Pz ojzuajsj jdpej, at h p zq izbjpz jd ojzu gcpsibjr, onqd tp rajqqj. Opqr tj izbjpz, at h p zq ljtn o’pkkpbdjsjqd, ojr cptdjbjr jd zq rdjkkjb. Tj vpboaq jrd tnqe jd jdbnad, at h p zqj iptpqçnabj pz wnqo jd zq ipbijgzj, kbngcj oj tp djbbprrj, rzb tpxzjttj jrd knrjj zq dbpqrpd. Ojr gcpdr lajqqjqd rnzljqd gcprrjb tjr wjzattjr xza lntjqd pz ljqd'.lower()
+
+texto=''
+for i in texto2:
+    if i in letras:
+        texto+=letras[i]
+    else:
+        texto+=i
+
+print(texto)
 
