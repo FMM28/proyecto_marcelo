@@ -63,8 +63,18 @@ c=0
 #                   print(p)
 
 #jdpej
-for p in dicFr:
-      if len(p)==5:
-            if p[0]==p[-1] and p[0] in posJ and p[2] in posP:
-                  print(p)
+# for p in dicFr:
+#       if len(p)==5:
+#             if p[0]==p[-1] and p[0] in posJ and p[2] in posP:
+#                   print(p)
 
+# rntjat
+#posibles palabras:votent,soleil
+# posR=VS
+#POSn=O
+# POST=tl
+#posa=in
+for p in dicFr:
+      if len(p)==6:
+            if p[2]==p[-1] and p[2] in posT and p[-1] in posT and p[3] in posJ and p[0] in posR and p[3]!=p[4]:
+                  print(p)
