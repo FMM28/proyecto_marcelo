@@ -10,31 +10,31 @@ def carga(nombre):
             contenido = archivo.read()
     return contenido.split()
 
-posA = "in"
+posA = "i"
 posB = "r"
-posC = "cdfghijklmnpqstvwxyz"
-posD = "dmctx"
-posE = "tnlpdg"
-posF = "cdfghijklmnpqstvwxyz"
-posG = "cdfghijklmnpqstvwxyz"
-posH = "cdfghijklmnpqstvwxyz"
+posC = "cdfghjkmpqwxyz"
+posD = "t"
+posE = "npdg"
+posF = "cdfghjkmpqwxyz"
+posG = "cdfghjkmpqwxyz"
+posH = "cdfghjkmpqwxyz"
 posI = "b"
 posJ = "e"
-posK = "cdfghijklmnpqstvwxyz"
-posL = "cdfghijklmnpqstvwxyz"
-posM = "cdfghijklmnpqstvwxyz"
+posK = "cdfghjkmpqwxyz"
+posL = "v"
+posM = "cdfghjkmpqwxyz"
 posN = "o"
-posO = "cdfghijklmnpqstvwxyz"
+posO = "cdfghjkmpqwxyz"
 posP = "a"
-posQ = "cdfghijklmnpqstvwxyz"
-posR = "vs"
-posS = "cdfghijklmnpqstvwxyz"
-posT = "tl"
-posU = "cdfghijklmnpqstvwxyz"
-posV = "cdfghijklmnpqstvwxyz"
-posW = "cdfghijklmnpqstvwxyz"
-posX = "cdfghijklmnpqstvwxyz"
-posY = "cdfghijklmnpqstvwxyz"
+posQ = "n"
+posR = "s"
+posS = "cdfghjkmpqwxyz"
+posT = "l"
+posU = "cdfghjkmpqwxyz"
+posV = "cdfghjkmpqwxyz"
+posW = "cdfghjkmpqwxyz"
+posX = "cdfghjkmpqwxyz"
+posY = "cdfghjkmpqwxyz"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
@@ -85,4 +85,9 @@ c=0
 #     if len(p)==6:
 #         if p[2]==p[-1] and p[2] in posT and p[-1] in posT and p[3] in posJ and p[0] in posR and p[3]!=p[4]:
 #             print(p)
-            
+
+#lajqqjqd
+for p in dicFr:
+    if len(p)==8:
+        if p[3]==p[4] and p[3]==p[-2] and p[3] in posQ:
+            print(p)
