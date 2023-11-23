@@ -17,25 +17,36 @@ posD = "g"
 posE = "a"
 posF = "m"
 posG = "e"
-posH = "rf"
-posI = "fhjkqrvwxz"
+posH = "k"
+posI = "h"
 posJ = "t"
-# posK = "fhjkqrvwxz"
+posK = "fhjkqrvwxz"
 posL = "fhjkqrvwxz"
 posM = "p"
 posN = "n"
 posO = "o"
 posP = "fhjkqrvwxz"
+posP = "fhjkqrvwxz"
 posQ = "d"
-# posR = "fhjkqrvwxz"
-# posS = "fhjkqrvwxz"
+posR = "fhjkqrvwxz"
+posS = "fhjkqrvwxz"
+posP = "fhjkqrvwxz"
+posQ = "fhjkqrvwxz"
+posR = "fhjkqrvwxz"
+posS = "fhjkqrvwxz"
 posT = "s"
 posU = "c"
 posV = "u"
 posW = "y"
 posX = "fhjkqrvwxz"
-posY = "b"
+posY = "fhjkqrvwxz"
 posZ = "fhjkqrvwxz"
+posX = "fhjkqrvwxz"
+posY = "fhjkqrvwxz"
+posZ = "fhjkqrvwxz"
+posX = "fhjkqrvwxz"
+posY = "b"
+# posZ = "jqvxz"
 
 #Texto 1
 #En ingles
@@ -114,11 +125,11 @@ c=0
 #posM=p
 #PosQ=d
 #PosT=s
-for p in dicEng:
-    if len(p)==9:
-         if p[2]==p[3]and p[5]==p[6]  and p[4]==p[7] and p[4] in posG and p[1] in posO:
-              c+=1
-              print(p)
+# for p in dicEng:
+#     if len(p)==9:
+#          if p[2]==p[3]and p[5]==p[6]  and p[4]==p[7] and p[4] in posG and p[1] in posO:
+#               c+=1
+#               print(p)
 #posW = 'y'
 #posO = 'o'
 
@@ -130,9 +141,36 @@ for p in dicEng:
 #               print(p)
 
 #yguevtg
+# for p in dicEng:
+#     if len(p)==7:
+#          if p[0] in posY and p[1] in posG and p[2] in posU and p[1] == p[-1] and p[3] in posE:
+#               c+=1
+#               print(p)
+
+#xign
+# for p in dicEng:
+#     if len(p)==4:
+#          if p[2:]=='en' and p[0] in posX and p[1] in posI:
+#               c+=1
+#               print(p)
+
+#lanq
+# for p in dicEng:
+#     if len(p)==4:
+#          if p[1:]=='ind' and p[0] in posL:
+#               c+=1
+#               print(p)
+
+#yglocg
+# for p in dicEng:
+#     if len(p)==6:
+#          if p[0:2]=='be' and p[3] in posO and p[-1] in posG:
+#               c+=1
+#               print(p)
+
+#fechgj
 for p in dicEng:
-    if len(p)==7:
-         if p[0] in posY and p[1] in posG and p[2] in posU and p[1] == p[-1] and p[3] in posE:
+    if len(p)==6:
+         if p[:3]=='mar':
               c+=1
               print(p)
-
