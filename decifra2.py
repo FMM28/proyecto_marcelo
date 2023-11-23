@@ -123,10 +123,19 @@ c=0
 
 #probando con kbjsajb
 
+# for p in dicFr:
+#     if len(p) == 7:
+#         if p[0] in posK and p[1] in posB:
+#             if p[2] == p[-2] and p[2] in posJ:
+#                 if p[4] in posA:
+#                     c += 1
+#                     print(p)
+
+#probando con ojzu
+
 for p in dicFr:
-    if len(p) == 7:
-        if p[0] in posK and p[1] in posB:
-            if p[2] == p[-2] and p[2] in posJ:
-                if p[4] in posA:
+     if len(p) == 4:
+          if p[0] in posO and p[1] in posJ:
+               if p[2] in posZ:
                     c += 1
                     print(p)
