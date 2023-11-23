@@ -12,29 +12,29 @@ def carga(nombre):
 
 posA = "i"
 posB = "r"
-posC = "hjkmqwxyz"
+posC = "hjkqwxyz"
 posD = "t"
 posE = "g"
-posF = "hjkmqwxyz"
+posF = "hjkqwxyz"
 posG = "c"
-posH = "hjkmqwxyz"
+posH = "hjkqwxyz"
 posI = "b"
 posJ = "e"
 posK = "p"
 posL = "v"
-# posM = "hjkmqwxyz"
+# posM = "hjkqwxyz"
 posN = "o"
 posO = "d"
 posP = "a"
 posQ = "n"
 posR = "s"
-posS = "hjkmqwxyz"
+posS = "m"
 posT = "l"
-posU = "hjkmqwxyz"
-posV = "hjkmqwxyz"
+posU = "hjkqwxyz"
+posV = "hjkqwxyz"
 posW = "f"
-posX = "hjkmqwxyz"
-# posY = "dghjkmqwxyz"
+posX = "hjkqwxyz"
+# posY = "hjkqwxyz"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
@@ -114,9 +114,19 @@ c=0
 
 #probando con ebpqoj
 
+# for p in dicFr:
+#     if len(p) == 6:
+#         if p[1] in posB and p[2] in posP:
+#             if p[3] in posQ and p[-1] in posJ:
+#                 c += 1
+#                 print(p)
+
+#probando con kbjsajb
+
 for p in dicFr:
-    if len(p) == 6:
-        if p[1] in posB and p[2] in posP:
-            if p[3] in posQ and p[-1] in posJ:
-                c += 1
-                print(p)
+    if len(p) == 7:
+        if p[0] in posK and p[1] in posB:
+            if p[2] == p[-2] and p[2] in posJ:
+                if p[4] in posA:
+                    c += 1
+                    print(p)
