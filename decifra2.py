@@ -11,25 +11,25 @@ def carga(nombre):
     return contenido.split()
 
 posA = "abcdefghijklmnopqrstuvwxyz"
-posB = "sc"
+posB = "abcdefghijklmnopqrstuvwxyz"
 posC = "abcdefghijklmnopqrstuvwxyz"
-posD = "u"
+posD = "abcdefghijklmnopqrstuvwxyz"
 posE = "abcdefghijklmnopqrstuvwxyz"
 posF = "abcdefghijklmnopqrstuvwxyz"
 posG = "abcdefghijklmnopqrstuvwxyz"
 posH = "abcdefghijklmnopqrstuvwxyz"
-posI = "abcdefghijklmnopqrstuvwxyz"
+posI = "ctsjn"
 posJ = "e"
-posK = "rl"
+posK = "abcdefghijklmnopqrstuvwxyz"
 posL = "abcdefghijklmnopqrstuvwxyz"
 posM = "abcdefghijklmnopqrstuvwxyz"
 posN = "abcdefghijklmnopqrstuvwxyz"
 posO = "abcdefghijklmnopqrstuvwxyz"
 posP = "abcdefghijklmnopqrstuvwxyz"
 posQ = "abcdefghijklmnopqrstuvwxyz"
-posR = "gq"
+posR = "abcdefghijklmnopqrstuvwxyz"
 posS = "abcdefghijklmnopqrstuvwxyz"
-posT = "abcdefghijklmnopqrstuvwxyz"
+posT = "trls"
 posU = "abcdefghijklmnopqrstuvwxyz"
 posV = "abcdefghijklmnopqrstuvwxyz"
 posW = "abcdefghijklmnopqrstuvwxyz"
@@ -45,23 +45,19 @@ dicFr=list(set(dicFr))
 
 c=0
 
-#rdjkkjb
+
+#ijttj
+#posT=rlts
+#posI=ctsjn
 # for p in dicFr:
-#     if len(p)==7:
-#          if p[2]==p[5] and p[2] in posJ and p[3]==p[4]:
-#               c+=1
-#               print(p)
+#       if len(p)==5:
+#             if p[1]==p[4] and p[2]==p[3] and p[1] in posJ:
+#                   c+=1
+#                   print(p)
 
-# guerres quelles querrec
-
-#posR = 'gq'
-#posD = 'u'
-#posK = 'rl'
-#posB = 'sc'
-
-#rkpgajzrj
+#rpttj
 for p in dicFr:
-      if len(p) == 9:
-        if p[5] == p[-1] and p[5] == posJ and p[0] in posR:
-             c += 1
-             print(p)
+      if len(p)==5:
+            if p[2]==p[3] and p[2] in posT and p[-1] in posJ:
+                  c+=1
+                  print(p)
