@@ -22,7 +22,7 @@ posI = "b"
 posJ = "e"
 posK = "p"
 posL = "v"
-posM = "cdghjkmqwxyz"
+# posM = "cdghjkmqwxyz"
 posN = "o"
 posO = "cdghjkmqwxyz"
 posP = "a"
@@ -34,7 +34,7 @@ posU = "cdghjkmqwxyz"
 posV = "cdghjkmqwxyz"
 posW = "f"
 posX = "cdghjkmqwxyz"
-posY = "cdghjkmqwxyz"
+# posY = "cdghjkmqwxyz"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
@@ -99,7 +99,8 @@ c=0
 #             print(p)
 
 #kbnwadjb
-for p in dicFr:
-    if len(p)==8:
-        if p[1]==p[-1] and p[-1]in posB and p[3]in posW and p[4]in posA:
-            print(p)
+# for p in dicFr:
+#     if len(p)==8:
+#         if p[1]==p[-1] and p[-1]in posB and p[3]in posW and p[4]in posA:
+#             print(p)
+
