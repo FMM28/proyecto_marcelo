@@ -12,29 +12,29 @@ def carga(nombre):
 
 posA = "i"
 posB = "r"
-posC = "cdfghjkmpqwxyz"
+posC = "cdghjkmpqwxyz"
 posD = "t"
-posE = "npdg"
-posF = "cdfghjkmpqwxyz"
-posG = "cdfghjkmpqwxyz"
-posH = "cdfghjkmpqwxyz"
+posE = "pdg"
+posF = "cdghjkmpqwxyz"
+posG = "cdghjkmpqwxyz"
+posH = "cdghjkmpqwxyz"
 posI = "b"
 posJ = "e"
-posK = "cdfghjkmpqwxyz"
+posK = "cdghjkmpqwxyz"
 posL = "v"
-posM = "cdfghjkmpqwxyz"
+posM = "cdghjkmpqwxyz"
 posN = "o"
-posO = "cdfghjkmpqwxyz"
+posO = "cdghjkmpqwxyz"
 posP = "a"
 posQ = "n"
 posR = "s"
-posS = "cdfghjkmpqwxyz"
+posS = "cdghjkmpqwxyz"
 posT = "l"
-posU = "cdfghjkmpqwxyz"
-posV = "cdfghjkmpqwxyz"
-posW = "cdfghjkmpqwxyz"
-posX = "cdfghjkmpqwxyz"
-posY = "cdfghjkmpqwxyz"
+posU = "cdghjkmpqwxyz"
+posV = "cdghjkmpqwxyz"
+posW = "f"
+posX = "cdghjkmpqwxyz"
+posY = "cdghjkmpqwxyz"
 posZ = "u"
 
 dicFr=carga('dicFr.txt')
@@ -87,7 +87,13 @@ c=0
 #             print(p)
 
 #lajqqjqd
+# for p in dicFr:
+#     if len(p)==8:
+#         if p[3]==p[4] and p[3]==p[-2] and p[3] in posQ:
+#             print(p)
+
+#wpad
 for p in dicFr:
-    if len(p)==8:
-        if p[3]==p[4] and p[3]==p[-2] and p[3] in posQ:
+    if len(p)==4:
+        if p[0] in posW and p[1] in posP and p[2] in posA and p[3] in posD:
             print(p)
