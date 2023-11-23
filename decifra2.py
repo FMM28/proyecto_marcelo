@@ -37,9 +37,9 @@ posX = "abcdefghijklmnopqrstuvwxyz"
 posY = "abcdefghijklmnopqrstuvwxyz"
 posZ = "abcdefghijklmnopqrstuvwxyz"
 
-dicFr=carga('./diccionarios/dicFr.txt')
+dicFr=carga('dicFr.txt')
 dicFr=list(set(dicFr))
-# print(len(dicFr))
+print(len(dicFr))
 
 #igual que el texto 1 deducimos que la j es una e por ser la que tiene mayor frecuencia
 
@@ -59,9 +59,11 @@ c=0
 #posK = 'rl'
 #posB = 'sc'
 
-#rkpgajzrj
-for p in dicFr:
-      if len(p) == 9:
-        if p[5] == p[-1] and p[5] == posJ and p[0] in posR:
-             c += 1
-             print(p)
+#knrjj
+# for p in dicFr:
+#     if len(p)==5:
+#          if p[-1]==p[-2] and p[-1] in posJ and p[0] in posK:
+#               c+=1
+#               print(p)
+
+#
