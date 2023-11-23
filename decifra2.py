@@ -11,21 +11,21 @@ def carga(nombre):
     return contenido.split()
 
 posA = "abcdefghijklmnopqrstuvwxyz"
-posB = "abcdefghijklmnopqrstuvwxyz"
+posB = "r"
 posC = "abcdefghijklmnopqrstuvwxyz"
 posD = "dmctx"
 posE = "tnlpdg"
 posF = "abcdefghijklmnopqrstuvwxyz"
 posG = "abcdefghijklmnopqrstuvwxyz"
 posH = "abcdefghijklmnopqrstuvwxyz"
-posI = "ctsjfbn"
+posI = "b"
 posJ = "e"
 posK = "abcdefghijklmnopqrstuvwxyz"
 posL = "abcdefghijklmnopqrstuvwxyz"
 posM = "abcdefghijklmnopqrstuvwxyz"
 posN = "abcdefghijklmnopqrstuvwxyz"
 posO = "abcdefghijklmnopqrstuvwxyz"
-posP = "aiuo"
+posP = "a"
 posQ = "abcdefghijklmnopqrstuvwxyz"
 posR = "pvhflcmgsbnr"
 posS = "abcdefghijklmnopqrstuvwxyz"
@@ -35,7 +35,7 @@ posV = "abcdefghijklmnopqrstuvwxyz"
 posW = "abcdefghijklmnopqrstuvwxyz"
 posX = "abcdefghijklmnopqrstuvwxyz"
 posY = "abcdefghijklmnopqrstuvwxyz"
-posZ = "abcdefghijklmnopqrstuvwxyz"
+posZ = "u"
 
 dicFr=carga('dicFr.txt')
 dicFr=list(set(dicFr))
@@ -69,7 +69,20 @@ c=0
 #                   print(p)
 
 #izbjpz
-for p in dicFr:
-      if len(p)==6:
-            if p[1]==p[-1] and p[3] in posJ and p[0] in posI:
-                  print(p)
+# for p in dicFr:
+#       if len(p)==6:
+#             if p[1]==p[-1] and p[3] in posJ and p[0] in posI:
+#                  print(p)
+
+
+# rntjat
+#posibles palabras:votent,soleil
+# posR=VS
+#POSn=O
+# POST=tl
+#posa=in
+# for p in dicFr:
+#     if len(p)==6:
+#         if p[2]==p[-1] and p[2] in posT and p[-1] in posT and p[3] in posJ and p[0] in posR and p[3]!=p[4]:
+#             print(p)
+            
