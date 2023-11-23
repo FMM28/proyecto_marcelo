@@ -34,6 +34,15 @@ posP = "fhjkqrvwxz"
 posQ = "fhjkqrvwxz"
 posR = "fhjkqrvwxz"
 posS = "fhjkqrvwxz"
+# posK = "jqxz"
+posL = "f"
+posM = "p"
+posN = "n"
+posO = "o"
+posP = "v"
+posQ = "d"
+# posR = "jqxz"
+# posS = "jqxz"
 posT = "s"
 posU = "c"
 posV = "u"
@@ -46,7 +55,7 @@ posY = "fhjkqrvwxz"
 posZ = "fhjkqrvwxz"
 posX = "fhjkqrvwxz"
 posY = "b"
-# posZ = "jqvxz"
+# posZ = "jqxz"
 
 #Texto 1
 #En ingles
@@ -169,8 +178,19 @@ c=0
 #               print(p)
 
 #fechgj
-for p in dicEng:
-    if len(p)==6:
-         if p[:3]=='mar':
-              c+=1
-              print(p)
+# for p in dicEng:
+#     if len(p)==6:
+#          if p[:3]=='mar':
+#               c+=1
+#               print(p)
+
+letras = {"a" : "i","b" : "l","c" : "r","d" : "g","e" : "a","f" : "m","g" : "e","h" : "k","i" : "h","j" : "t","k" : "K","l" : "f","m" : "p","n" : "n","o" : "o","p" : "v","q" : "d","r" : "R","s" : "S","t" : "s","u" : "c","v" : "u","w" : "y","x" : "w","y" : "b","z" : "Z"}
+texto1='Jigcg xet onug e Uovnjcwfen xio mottgttgq jig fotj xonqgclvb Dootg wov uen afedang, loc gpgcw qew xign ig patajgq jig ngtj, jig Dootg ieq beaq e ygevjalvb, dbajjgcand, dobqgn gdd. Jig Uovnjcwfen jooh jig gddt jo fechgj enq toon ygden jo dgj caui. Yvj aj xet noj bond yglocg ig dcgx afmejagnj xaji jig Dootg yguevtg tig depg iaf onbw e tandbg dobqgn gdd e qew. Ig xet noj dgjjand caui letj gnovdi. Jign ong qew, eljgc ig ieq lanatigq uovnjand iat fongw, jig aqge uefg jo iaf jiej ig uovbq dgj ebb jig dobqgn gddt ej onug yw habband jig Dootg enq uvjjand aj omgn. Yvj xign jig qggq xet qong, noj e tandbg dobqgn gdd qaq ig lanq, enq iat mcguaovt Dootg xet qgeq'.lower()
+texto=''
+for i in texto1:
+    if i in letras:
+        texto+=letras[i]
+    else:
+        texto+=i
+
+print(texto)
